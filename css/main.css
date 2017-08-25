@@ -1,0 +1,249 @@
+/*
+ * Estilos de tu proyecto
+ */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header{
+	background-color: #212529;
+	color: white;
+	position: fixed;
+    width: 100%;
+  	top:0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  left: 645px;
+  top: -15px;
+
+}
+
+a:hover {
+  color: #E95853;
+
+}
+
+h3{
+	position: relative;
+	top: 35px;
+	left: 39px;
+	font-size: 2em;
+}
+
+.menu{
+  padding: 14px 70px;
+  overflow: auto;
+  padding-right: .5rem;
+    padding-left: .5rem;
+    font-size: 16px;
+}
+
+#seccion2da{
+	text-align: center;
+	background:  #18bc9c;
+	padding-top: 146px;
+}
+
+h1{
+	font-weight: 700px;
+	font-size: 4.75em;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+
+
+.estrella img 
+{
+	width:  316px;
+
+}
+
+p{
+	color: white;
+}
+ #portfolio{
+ 	text-align: center;
+ }
+ #portfolio h1{
+
+ 	color: #212529;
+ }
+
+ #portfolio img{
+ 	width: 316px;
+
+ }
+#about h1{
+
+ color: white;
+}
+
+ #about{
+  text-align: center;
+	background:  #18bc9c; 
+ }
+
+ .btn{
+
+text-decoration:none;
+padding 10px;
+font-weight:600;
+font size:20px;
+color: white;
+background-color: #18bc9c;
+border-radius: 6px;
+border: 2px solid white;
+text-align: center;
+align-content: center;
+
+    margin-top: 15px;
+    transition: all .3s ease-in-out;
+  
+   
+    background: 0 0;
+    position: relative;
+
+}
+
+#contactame{
+	text-align: center;
+
+    
+}
+#contactame h1{
+color : #212529;
+    }
+ /*Insertando imagenes*/ 
+ 	
+
+/*.row:before, .row:after{
+    content: "";
+    display: table;
+}
+.row:after{
+    clear: both;
+}*/
+.row{
+  display: grid;
+  grid-template-columns:30% 30% 30%;
+  grid-gad:10px ;
+
+  
+}
+.row img{
+  width: 100%;
+  margin-top: 10px;
+  /*width: 200px;*/
+ align-content: center;
+
+}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 240, 181,0.6); /* Fallback color */
+    background-color: rgba(0, 240, 181,0.6); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    border: 5px solid white;
+
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: black;
+    padding: 10px 0;
+    height: 150px;
+    font-weight: bold;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 79px;
+    right: 409px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+#work .picture {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 16px solid #F6D9CD;
+    color: black;
+}
+
+#work .picture:hover {opacity: 0.7;}
+
+
+/*Formulario*/
+
